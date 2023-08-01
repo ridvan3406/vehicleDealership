@@ -1,0 +1,19 @@
+<template>
+  <div class="slds-p-horizontal_small" lwc:if={assets.length}>
+    <lightning-datatable
+    key-field="Id"
+    data={assets}
+    columns={columns}
+    onrowselection={handleAssetSelection}
+></lightning-datatable>
+
+  </div>
+
+  <lightning-button
+      label="Link Selected Assets to Opportunity"
+      onclick={handleLinkAssetsToOpportunity}
+      variant="brand"
+     
+  ></lightning-button>
+</template>
+

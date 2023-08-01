@@ -8,3 +8,6 @@
 string tempvar = 'Enter_your_name_here sd sd sd aadssda ridvan saman cool';
 System.debug('Hello World!');
 System.debug('My name is ' + tempvar);
+
+List<Asset> assetList = AssetController.getAssetData();
+System.debug(assetList);
