@@ -7,12 +7,12 @@ public with sharing class AssetController {
     }
 
     @AuraEnabled
-    public static void linkAssetsToOpportunity(Id opportunityId, List<Id> assetIds) {
-        List<Asset> assetsToUpdate = new List<Asset>();
-        for (Id assetId : assetIds) {
-            Asset asset = new Asset(Id = assetId, Opportunity__c = opportunityId);
-            assetsToUpdate.add(asset);
+    public static void updateAssetOpportunity(List<String> assetIds, String opportunityName) {
+        List<Asset> assetsToUpdate = [SELECT Id FROM Asset WHERE Id IN :assetIds];
+        for (Asset asset : assetsToUpdate) {
+            asset.Opportunity__c = opportunityName;
         }
         update assetsToUpdate;
     }
+    
 }
