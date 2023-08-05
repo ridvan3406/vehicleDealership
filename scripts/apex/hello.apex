@@ -11,3 +11,7 @@ System.debug('My name is ' + tempvar);
 
 List<Asset> assetList = AssetController.getAssetData();
 System.debug(assetList);
+
+
+OpportunityReminderBatch batchJob = new OpportunityReminderBatch();
+Database.executeBatch(batchJob,4);

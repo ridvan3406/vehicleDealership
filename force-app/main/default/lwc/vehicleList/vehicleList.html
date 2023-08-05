@@ -1,27 +1,23 @@
-<template >
-  
+<template>
   <div class="slds-p-horizontal_small slds-var-m-top_large" lwc:if={assets.length}>
     <lightning-datatable
-    class="slds-var-m-around_large"
-    key-field="Id"
-    data={assets}
-    columns={columns}
-    onrowselection={handleAssetSelection}
-></lightning-datatable>
+      class="slds-var-m-around_large"
+      key-field="Id"
+      data={assets}
+      columns={columns}
+      onrowselection={handleAssetSelection}
+    ></lightning-datatable>
     <template lwc:if={noRecordsFound}>
       <div class="slds-align_absolute-center slds-p-around_small slds-text-heading_medium">No Records Found</div>
     </template>
-
   </div>
   <div class="slds-align_absolute-center slds-var-m-top_large">
-  <!-- Aligns the button in the center and adds top margin -->
-  <lightning-button
-    class="slds-var-m-around_large"
-    label="Link Selected Assets to Opportunity"
-    onclick={handleLinkAssetsToOpportunity}
-    variant="brand"
-  ></lightning-button>
-</div>
- 
+    <!-- Aligns the button in the center and adds top margin -->
+    <lightning-button
+      class="slds-var-m-around_large"
+      label="Link Selected Assets to Opportunity"
+      onclick={handleLinkAssetsToOpportunity}
+      variant="brand"
+    ></lightning-button>
+  </div>
 </template>
-

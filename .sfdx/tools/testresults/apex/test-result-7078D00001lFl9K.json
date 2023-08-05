@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Aug 04 2023 17:05:45",
+    "testExecutionTimeInMs": 683,
+    "testTotalTimeInMs": 683,
+    "commandTimeInMs": 340,
+    "hostname": "https://wisequarter1--rsaman.sandbox.my.salesforce.com",
+    "orgId": "00D8D0000008gN1UAI",
+    "username": "info@silverlineteams.com.rsaman",
+    "testRunId": "7078D00001lFl9K",
+    "userId": "0058Z000008v3JkQAI"
+  },
+  "tests": [
+    {
+      "id": "07M8D000009OyEDUA0",
+      "queueItemId": "7098D0000012VhoQAE",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078D00001lFl9KQAS",
+      "methodName": "OppReminderBatchTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8D00000DfNKgQAN",
+        "name": "OppReminderBatchTest",
+        "namespacePrefix": null,
+        "fullName": "OppReminderBatchTest"
+      },
+      "runTime": 683,
+      "testTimestamp": "2023-08-04T16:05:47.000+0000",
+      "fullName": "OppReminderBatchTest.OppReminderBatchTest"
+    }
+  ]
+}

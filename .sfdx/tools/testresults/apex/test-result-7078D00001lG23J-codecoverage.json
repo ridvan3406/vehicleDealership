@@ -1,0 +1,66 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "ContactBirthdayEmailBatch",
+      "apexClassOrTriggerId": "01p8D00000DfOlVQAV",
+      "apexTestClassId": "01p8D00000DfQNEQA3",
+      "apexTestMethodName": "TestContactBirthdayEmailBatch",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 13,
+      "percentage": "32%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          6,
+          25,
+          27,
+          28
+        ],
+        "uncoveredLines": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          31,
+          32,
+          33
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "BirthdayEmailTrigger",
+      "apexClassOrTriggerId": "01q8D000000V6EzQAK",
+      "apexTestClassId": "01p8D00000DfQNEQA3",
+      "apexTestMethodName": "TestContactBirthdayEmailBatch",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 9,
+      "percentage": "31%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          4,
+          5,
+          10
+        ],
+        "uncoveredLines": [
+          6,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          21
+        ]
+      }
+    }
+  ]
+]

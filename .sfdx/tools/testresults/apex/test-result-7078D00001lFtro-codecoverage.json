@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "LeadTriggerHandler",
+      "apexClassOrTriggerId": "01p8D00000DesTJQAZ",
+      "apexTestClassId": "01p8D00000DfNptQAF",
+      "apexTestMethodName": "testUpdateStateFromStateC",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "LeadTrigger",
+      "apexClassOrTriggerId": "01q8D000000V4jOQAS",
+      "apexTestClassId": "01p8D00000DfNptQAF",
+      "apexTestMethodName": "testUpdateStateFromStateC",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          4
+        ],
+        "uncoveredLines": []
+      }
+    }
+  ]
+]

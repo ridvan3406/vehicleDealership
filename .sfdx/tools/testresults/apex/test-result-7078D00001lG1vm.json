@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "outcome": "Skipped",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 0,
+    "skipped": 1,
+    "passRate": "0%",
+    "failRate": "0%",
+    "skipRate": "100%",
+    "testStartTime": "Fri Aug 04 2023 20:32:05",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 381,
+    "hostname": "https://wisequarter1--rsaman.sandbox.my.salesforce.com",
+    "orgId": "00D8D0000008gN1UAI",
+    "username": "info@silverlineteams.com.rsaman",
+    "testRunId": "7078D00001lG1vm",
+    "userId": "0058Z000008v3JkQAI",
+    "totalLines": 0,
+    "coveredLines": 0,
+    "testRunCoverage": "0%",
+    "orgWideCoverage": "7%"
+  },
+  "tests": [
+    {
+      "id": "07M8D000009OzHNUA0",
+      "queueItemId": "7098D0000012VkoQAE",
+      "stackTrace": null,
+      "message": "Method TestContactBirthdayEmailBatch does not exist in the the apex class with Id :01p8D00000DfQNE",
+      "asyncApexJobId": "7078D00001lG1vmQAC",
+      "methodName": "TestContactBirthdayEmailBatch",
+      "outcome": "Skip",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8D00000DfQNEQA3",
+        "name": "TestContactBirthdayEmailBatch",
+        "namespacePrefix": null,
+        "fullName": "TestContactBirthdayEmailBatch"
+      },
+      "runTime": 0,
+      "testTimestamp": "2023-08-04T19:32:05.000+0000",
+      "fullName": "TestContactBirthdayEmailBatch.TestContactBirthdayEmailBatch",
+      "diagnostic": {
+        "exceptionMessage": "Method TestContactBirthdayEmailBatch does not exist in the the apex class with Id :01p8D00000DfQNE",
+        "exceptionStackTrace": null,
+        "compileProblem": ""
+      }
+    }
+  ],
+  "codecoverage": []
+}

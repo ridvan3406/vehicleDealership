@@ -35,13 +35,13 @@ export default class AssetTable extends LightningElement {
 
   handleAssetSelection(event) {
     this.selectedAssets = event.detail.selectedRows;
+    console.log(this.selectedAssets);
   }
   // to close model we use a  built in method to close. we will cal it in the button action
   closeQuickAction() {
     this.dispatchEvent(new CloseActionScreenEvent());
   }
   handleLinkAssetsToOpportunity() {
-    console.log("first asset selected", this.selectedAssets);
     this.closeQuickAction();
   }
 }

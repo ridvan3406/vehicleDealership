@@ -1,0 +1,116 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Aug 04 2023 18:56:35",
+    "testExecutionTimeInMs": 369,
+    "testTotalTimeInMs": 369,
+    "commandTimeInMs": 427,
+    "hostname": "https://wisequarter1--rsaman.sandbox.my.salesforce.com",
+    "orgId": "00D8D0000008gN1UAI",
+    "username": "info@silverlineteams.com.rsaman",
+    "testRunId": "7078D00001lFtro",
+    "userId": "0058Z000008v3JkQAI",
+    "totalLines": 8,
+    "coveredLines": 8,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "7%"
+  },
+  "tests": [
+    {
+      "id": "07M8D000009OyxDUAS",
+      "queueItemId": "7098D0000012VjhQAE",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078D00001lFtroQAC",
+      "methodName": "testUpdateStateFromStateC",
+      "outcome": "Pass",
+      "apexLogId": "07L8D000006iYZdUAM",
+      "apexClass": {
+        "id": "01p8D00000DfNptQAF",
+        "name": "TestLeadTriggerHandler",
+        "namespacePrefix": null,
+        "fullName": "TestLeadTriggerHandler"
+      },
+      "runTime": 369,
+      "testTimestamp": "2023-08-04T17:56:35.000+0000",
+      "fullName": "TestLeadTriggerHandler.testUpdateStateFromStateC",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "LeadTriggerHandler",
+          "apexClassOrTriggerId": "01p8D00000DesTJQAZ",
+          "apexTestClassId": "01p8D00000DfNptQAF",
+          "apexTestMethodName": "testUpdateStateFromStateC",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "LeadTrigger",
+          "apexClassOrTriggerId": "01q8D000000V4jOQAS",
+          "apexTestClassId": "01p8D00000DfNptQAF",
+          "apexTestMethodName": "testUpdateStateFromStateC",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01q8D000000V4jOQAS",
+      "name": "LeadTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        4
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8D00000DesTJQAZ",
+      "name": "LeadTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

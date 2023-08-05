@@ -1,0 +1,123 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Aug 04 2023 17:41:49",
+    "testExecutionTimeInMs": 464,
+    "testTotalTimeInMs": 464,
+    "commandTimeInMs": 339,
+    "hostname": "https://wisequarter1--rsaman.sandbox.my.salesforce.com",
+    "orgId": "00D8D0000008gN1UAI",
+    "username": "info@silverlineteams.com.rsaman",
+    "testRunId": "7078D00001lFnpU",
+    "userId": "0058Z000008v3JkQAI",
+    "totalLines": 24,
+    "coveredLines": 24,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "57%"
+  },
+  "tests": [
+    {
+      "id": "07M8D000009OyqlUAC",
+      "queueItemId": "7098D0000012VjIQAU",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078D00001lFnpUQAS",
+      "methodName": "OppReminderBatchTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8D00000DfNKgQAN",
+        "name": "OppReminderBatchTest",
+        "namespacePrefix": null,
+        "fullName": "OppReminderBatchTest"
+      },
+      "runTime": 464,
+      "testTimestamp": "2023-08-04T16:41:49.000+0000",
+      "fullName": "OppReminderBatchTest.OppReminderBatchTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OppReminderBatch",
+          "apexClassOrTriggerId": "01p8D00000DetPjQAJ",
+          "apexTestClassId": "01p8D00000DfNKgQAN",
+          "apexTestMethodName": "OppReminderBatchTest",
+          "numLinesCovered": 24,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4,
+              7,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              22,
+              23,
+              25,
+              27,
+              30,
+              32,
+              33,
+              34,
+              37,
+              38
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8D00000DetPjQAJ",
+      "name": "OppReminderBatch",
+      "type": "ApexClass",
+      "numLinesCovered": 24,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        4,
+        7,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        25,
+        27,
+        30,
+        32,
+        33,
+        34,
+        37,
+        38
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

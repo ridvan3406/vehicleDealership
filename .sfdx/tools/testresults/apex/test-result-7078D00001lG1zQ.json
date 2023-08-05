@@ -1,0 +1,174 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Aug 04 2023 20:32:33",
+    "testExecutionTimeInMs": 431,
+    "testTotalTimeInMs": 431,
+    "commandTimeInMs": 368,
+    "hostname": "https://wisequarter1--rsaman.sandbox.my.salesforce.com",
+    "orgId": "00D8D0000008gN1UAI",
+    "username": "info@silverlineteams.com.rsaman",
+    "testRunId": "7078D00001lG1zQ",
+    "userId": "0058Z000008v3JkQAI",
+    "totalLines": 32,
+    "coveredLines": 4,
+    "testRunCoverage": "13%",
+    "orgWideCoverage": "11%"
+  },
+  "tests": [
+    {
+      "id": "07M8D000009OzHSUA0",
+      "queueItemId": "7098D0000012VktQAE",
+      "stackTrace": "Class.TestContactBirthdayEmailBatch.TestContactBirthdayEmailBatch: line 18, column 1",
+      "message": "System.StringException: '?' can only be specified for Day-of-Month or Day-of-Week.",
+      "asyncApexJobId": "7078D00001lG1zQQAS",
+      "methodName": "TestContactBirthdayEmailBatch",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8D00000DfQNEQA3",
+        "name": "TestContactBirthdayEmailBatch",
+        "namespacePrefix": null,
+        "fullName": "TestContactBirthdayEmailBatch"
+      },
+      "runTime": 431,
+      "testTimestamp": "2023-08-04T19:32:33.000+0000",
+      "fullName": "TestContactBirthdayEmailBatch.TestContactBirthdayEmailBatch",
+      "diagnostic": {
+        "exceptionMessage": "System.StringException: '?' can only be specified for Day-of-Month or Day-of-Week.",
+        "exceptionStackTrace": "Class.TestContactBirthdayEmailBatch.TestContactBirthdayEmailBatch: line 18, column 1",
+        "className": "TestContactBirthdayEmailBatch",
+        "compileProblem": "",
+        "lineNumber": 18,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContactBirthdayEmailBatch",
+          "apexClassOrTriggerId": "01p8D00000DfOlVQAV",
+          "apexTestClassId": "01p8D00000DfQNEQA3",
+          "apexTestMethodName": "TestContactBirthdayEmailBatch",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 19,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              2,
+              3,
+              6,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              19,
+              20,
+              25,
+              27,
+              28,
+              31,
+              32,
+              33
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "BirthdayEmailTrigger",
+          "apexClassOrTriggerId": "01q8D000000V6EzQAK",
+          "apexTestClassId": "01p8D00000DfQNEQA3",
+          "apexTestMethodName": "TestContactBirthdayEmailBatch",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 9,
+          "percentage": "31%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              5,
+              10
+            ],
+            "uncoveredLines": [
+              6,
+              11,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              21
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8D00000DfOlVQAV",
+      "name": "ContactBirthdayEmailBatch",
+      "type": "ApexClass",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 19,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": [
+        2,
+        3,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        25,
+        27,
+        28,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "apexId": "01q8D000000V6EzQAK",
+      "name": "BirthdayEmailTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 9,
+      "percentage": "31%",
+      "coveredLines": [
+        2,
+        4,
+        5,
+        10
+      ],
+      "uncoveredLines": [
+        6,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        21
+      ]
+    }
+  ]
+}
