@@ -23,10 +23,6 @@ public with sharing class ProductCallouts {
         jsonString,
         ProductsWrapper.class
       );
-      //   List<ProductsWrapper> productsList = (List<ProductsWrapper>) JSON.deserialize(
-      //     jsonString,
-      //     List<ProductsWrapper>.class
-      //   );
       List<Product2> products = new List<Product2>();
       for (ProductsWrapper.TempProduct pw : wrapper.prodList) {
         Product2 prod = new Product2();
