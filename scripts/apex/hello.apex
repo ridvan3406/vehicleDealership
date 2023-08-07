@@ -15,3 +15,5 @@ System.debug(assetList);
 
 OpportunityReminderBatch batchJob = new OpportunityReminderBatch();
 Database.executeBatch(batchJob,4);
+
+HttpResponse response = ProductCallouts.getProducts();
